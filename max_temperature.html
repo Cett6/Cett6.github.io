@@ -30,7 +30,7 @@
                 Plots
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <a class="dropdown-item" href="max_temperature.html">Max Temperature</a>
+                <a class="dropdown-item active" href="max_temperature.html">Max Temperature</a>
                 <a class="dropdown-item" href="humidity.html">Humidity</a>
                 <a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
                 <a class="dropdown-item" href="wind_speed.html">Wind Speed</a>
@@ -53,20 +53,17 @@
         <div class="col-lg-7 col-md-12">
           <!-- Left box  -->
           <div class="box">
-            <h3 class="title">Summary: Latitude vs. X</h3>
+                <h3 class="title">Max Temperature</h3>
             <hr>
-            <img src="assets/images/Fig1.png" class="vizualization rounded float-left" alt="Max Temperature Graph">
-            
-            <p>This project analyzes how weather changes as you get closer to the equator using the OpenWeatherMap API. </p>
+            <img src="assets/images/Fig1.png" class = "visualization rounded vertical-align" alt="Max Temperature Image">
 
-            <p>After assembling the dataset, Matplotlib was used to plot various aspects of the weather vs. latitude.
-              Aspects include: temperature, cloudiness, wind speed, and humidity. This site provides the
-              source data and visualizations created as part of the analysis, as well as descriptions of
-              any trends witnessed.</p>
+            <p>The scatter plot as expected show that there is a significant temperature spike along the equator.
+              One surprise was the disparity between the Southern and Northern Hemisphere.
+            </p>
+
           </div>
         </div>
         <div class="col-lg-4 col-md-12">
-
           <!-- Right Box -->
           <div class="box">
             <h5 class="title">Visualizations</h5>
@@ -77,7 +74,7 @@
               <div class="row" style="padding-bottom: 30px;">
                 <div class="col-6">
                   <a href="max_temperature.html">
-                    <img class="panel" src="assets/images/Fig1.png" alt="Max Temperature Image">
+                    <img class="panel active" src="assets/images/Fig1.png" alt="Max Temperature Image">
                   </a>
                 </div>
                 <div class="col-6">
@@ -108,7 +105,6 @@
         </div>
       </div>
     </div>
-
   
     <!-- Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
